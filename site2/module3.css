@@ -1,0 +1,310 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+
+#Food
+{
+    background-color: lightgrey;
+    margin-left: 20px;
+    margin: -10 -10 -10 -10;
+    border-top: 5px solid black;
+    border-bottom: 2px solid black;
+    
+
+}
+
+h2
+{
+    margin-left: 40px;
+   
+}
+
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+#box1, #box2, #box3{
+    border:black; 
+    border-width:1px;
+    border-style:outset;
+    margin: 10px;
+    background-color: #87CE;
+}
+
+#chickenx, #beefx, #sushix{
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    font-size: 25px;
+    font-weight: bold ;
+}
+
+#chickenx
+{
+    text-align: center;
+}
+
+    
+
+
+.content {
+    padding: 30px 15px 10px 15px;
+}
+
+
+.row {
+    width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-mt-1, .col-mt-2, .col-mt-3, .col-mt-4, .col-mt-5, .col-mt-6, .col-mt-7, .col-mt-8, .col-mt-9, .col-mt-10, .col-mt-11, .col-mt-12 {
+        float: left;
+    }
+    .col-mt-1 {
+        width: 8.33%;
+    }
+    .col-mt-2 {
+        width: 16.66%;
+    }
+    .col-mt-3 {
+        width: 25%;
+    }
+    .col-mt-4 {
+        width: 33.33%;
+    }
+    .col-mt-5 {
+        width: 41.66%;
+    }
+    .col-mt-6 {
+        width: 50%;
+    }
+    .col-mt-7 {
+        width: 58.33%;
+    }
+    .col-mt-8 {
+        width: 66.66%;
+    }
+    .col-mt-9 {
+        width: 74.99%;
+    }
+    .col-mt-10 {
+        width: 83.33%;
+    }
+    .col-mt-11 {
+        width: 91.66%;
+    }
+    .col-mt-12 {
+        width: 100%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (max-width: 767px) {
+    .col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8, .col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12 {
+        float: left;
+    }
+    .col-mb-1 {
+        width: 8.33%;
+    }
+    .col-mb-2 {
+        width: 16.66%;
+    }
+    .col-mb-3 {
+        width: 25%;
+    }
+    .col-mb-4 {
+        width: 33.33%;
+    }
+    .col-mb-5 {
+        width: 41.66%;
+    }
+    .col-mb-6 {
+        width: 50%;
+    }
+    .col-mb-7 {
+        width: 58.33%;
+    }
+    .col-mb-8 {
+        width: 66.66%;
+    }
+    .col-mb-9 {
+        width: 74.99%;
+    }
+    .col-mb-10 {
+        width: 83.33%;
+    }
+    .col-mb-11 {
+        width: 91.66%;
+    }
+    .col-mb-12 {
+        width: 100%;
+    }
+}
+
+
+
+.form-inline {
+        display: inline-block;
+    }
+.navbar {       
+        background: #fff;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-bottom: 1px solid #d6d6d6;
+        box-shadow: 0 0 4px rgba(0,0,0,.1);
+    }
+
+    .navbar .navbar-brand {
+        color: #555;
+        padding-left: 0;
+        padding-right: 50px;
+        font-family: 'Merienda One', sans-serif;
+    }
+    .navbar .navbar-brand i {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .search-box {
+        position: relative;
+    }   
+    .search-box input {
+        box-shadow: none;
+        padding-right: 35px;
+        border-radius: 3px !important;
+    }
+    .search-box .input-group-addon {
+        min-width: 35px;
+        border: none;
+        background: transparent;
+        position: absolute;
+        right: 0;
+        z-index: 9;
+        padding: 7px;
+        height: 100%;
+    }
+
+    .navbar ul li i {
+        font-size: 18px;
+    }
+    .navbar .dropdown-menu i {
+        font-size: 16px;
+        min-width: 22px;
+    }
+    .navbar .dropdown.open > a {
+        background: none !important;
+    }
+    .navbar .dropdown-menu {
+        border-radius: 1px;
+        border-color: #e5e5e5;
+        box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    }
+    .navbar .dropdown-menu li a {
+        color: #777;
+        padding: 8px 20px;
+        line-height: normal;
+    }
+    .navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:active {
+        color: #333;
+    }   
+    .navbar .dropdown-menu .material-icons {
+        font-size: 21px;
+        line-height: 16px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+    .navbar .badge {
+        background: #f44336;
+        font-size: 11px;
+        border-radius: 20px;
+        position: absolute;
+        min-width: 10px;
+        padding: 4px 6px 0;
+        min-height: 18px;
+        top: 5px;
+    }
+    .navbar ul.nav li a.notifications, .navbar ul.nav li a.messages {
+        position: relative;
+        margin-right: 10px;
+    }
+    .navbar ul.nav li a.messages {
+        margin-right: 20px;
+    }
+    .navbar a.notifications .badge {
+        margin-left: -8px;
+    }
+    .navbar a.messages .badge {
+        margin-left: -4px;
+    }   
+    .navbar .active a, .navbar .active a:hover, .navbar .active a:focus {
+        background: transparent !important;
+    }
+    @media (min-width: 1200px){
+        .form-inline .input-group {
+            width: 300px;
+            margin-left: 30px;
+        }
+    }
+    @media (max-width: 1199px){
+        .form-inline {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .input-group {
+            width: 100%;
+        }
+    }
+
+
+.hello
+{
+    text-align: center;
+    border: 2px solid green;
+    font-size: 20px;
+}
